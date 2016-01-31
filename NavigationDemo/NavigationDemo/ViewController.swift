@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         //导航栏按钮－文字
 //        let homeButton : UIBarButtonItem = UIBarButtonItem(title: "Left", style: UIBarButtonItemStyle.Plain, target: self, action: "")
 //        
-//        let logButton : UIBarButtonItem = UIBarButtonItem(title: "Rigth", style: UIBarButtonItemStyle.Plain, target: self, action: "")
+//        let logButton : UIBarButtonItem = UIBarButtonItem(title: "Right", style: UIBarButtonItemStyle.Plain, target: self, action: "")
 //        
 //        self.navigationItem.leftBarButtonItem = homeButton
 //        self.navigationItem.rightBarButtonItem = logButton
@@ -49,8 +49,8 @@ class ViewController: UIViewController {
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(customView: rightItem)
         
         //导航栏标题
-//        self.title = "some title"
-//        self.navigationItem.title = "some title"
+        self.title = "iOSQueen"
+        self.navigationItem.title = "iOSQueen"
         
         //导航栏标题字体和颜色
 //        nav?.titleTextAttributes = [
@@ -60,11 +60,11 @@ class ViewController: UIViewController {
         
 
         //导航栏Logo
-        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 28, height: 28))
-        imageView.contentMode = .ScaleAspectFit
-        let image = UIImage(named: "swift")
-        imageView.image = image
-        navigationItem.titleView = imageView
+//        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 28, height: 28))
+//        imageView.contentMode = .ScaleAspectFit
+//        let image = UIImage(named: "swift")
+//        imageView.image = image
+//        navigationItem.titleView = imageView
         
     }
 
